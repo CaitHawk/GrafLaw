@@ -1,9 +1,14 @@
 import './App.css';
-import { InfoCard } from './Components/Molecules/InfoCard';
+import Button from './Components/Atoms/Button';
+import InfoCards from './Components/Organisms/InfoCards';
 
 function App() {
   return (
-   <InfoCard />
+   <>
+    <Button color='orange' copy='Free Consultation' />
+    <Button color='white' copy='Free Consultation' />
+    <InfoCards />
+   </>
   );
 }
 
