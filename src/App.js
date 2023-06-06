@@ -1,13 +1,12 @@
 import './App.css';
-import Button from './Components/Atoms/Button';
 import InfoCards from './Components/Organisms/InfoCards';
+import Footer from './Components/Organisms/Footer';
 
 function App() {
   return (
    <>
-    <Button color='orange' copy='Free Consultation' />
-    <Button color='white' copy='Free Consultation' />
     <InfoCards />
+    <Footer />
    </>
   );
 }

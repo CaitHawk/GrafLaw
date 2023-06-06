@@ -1,0 +1,107 @@
+.informationRow {
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.logoInfoDiv {
+    max-width: 230px;
+    
+}
+
+.footerServices {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    max-width: 155px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 30px;
+}
+
+.footerHeader {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+    color: #022378;
+    text-align: start;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.footerCopy {
+    font-style: italic;
+    font-size: 13px;
+    line-height: 21px;
+    color: #585858
+}
+
+
+.footerNavDiv {
+    display: flex;
+    flex-direction: row;
+    max-width: fit-content;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.serviceOl {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    padding: 0;
+}
+
+.serviceLink {
+    padding: 0;
+    margin: 10px 0;
+}
+
+.footerContact {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.contactLink {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    color: #333333;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 23px;
+}
+
+.disclaimer {
+    max-width: 990px;
+    margin: 18px auto;
+    text-align: center;
+    line-height: 19px;
+    font-size: 16px;
+}
+
+.copyright {
+    margin: auto;
+    text-align: center;
+}
+
+.footerSocial {
+    margin: 30px;
+}
+
+.socialDiv svg {
+    transform: scale(1.5);
+    margin-right: 10px;
+    margin: 15px 15px 0 0;
+}
+
+.footerLogo {
+    max-width: 157px;
+}
