@@ -1,0 +1,38 @@
+.infoCard {
+    background-color: #e0e3eb;
+    max-width: 270px;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.infoCardIcon {
+    width: 80px;
+    height: auto;
+    color: #022378;
+}
+
+.infoCardHeader {
+    color: #022378;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    margin: 0;
+    padding: 10px 50px
+}
+
+.infoCardCopy {
+    color: #333333;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    padding: 0 40px;
+    margin: 0;
+}
+
+@media screen {}
