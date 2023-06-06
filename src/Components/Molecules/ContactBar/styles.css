@@ -1,0 +1,25 @@
+.contactBar {
+    background-color: #022378;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+    padding: 38px;
+}
+
+.contactBarBtn {
+    margin: 38px;
+}
+
+.contactBarCopy {
+    max-width: 600px;
+    font-size:  24px;
+    font-weight: 400;
+    letter-spacing: 2%;
+    text-align: center;
+    line-height: 41px;
+    margin: auto;
+    padding-bottom: 32px;
+}

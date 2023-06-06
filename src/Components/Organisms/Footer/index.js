@@ -1,6 +1,6 @@
 import './styles.css';
 import { disclaimer, copyright, footerCopy, serviceArr, phoneNumber, emailAdress } from './footerData';
-import { Phone, AlternateEmail, Facebook, LinkedIn } from '@mui/icons-material';
+import { Phone, AlternateEmail, Facebook, LinkedIn, Copyright } from '@mui/icons-material';
 import logoLight from '../../../logo-light.png';
 
 const Footer = () => {
@@ -8,7 +8,7 @@ const Footer = () => {
         <section>
             <div className='informationRow'>
                 <div className='logoInfoDiv'>
-                    <img className='footerLogo' src={logoLight} />
+                    <img className='footerLogo' src={logoLight} alt='Graf Law' />
                     <p className='footerCopy'>{ footerCopy }</p>
                 </div>
                 <div className='footerNavDiv'>
@@ -38,7 +38,7 @@ const Footer = () => {
 
             </div>
             <p className='disclaimer'>{ disclaimer }</p>
-            <p className='copyright'>{ copyright }</p>
+            <p className='copyright'><Copyright />{ copyright }</p>
         </section>
     )
 };

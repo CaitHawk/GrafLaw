@@ -90,6 +90,10 @@
 .copyright {
     margin: auto;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
 }
 
 .footerSocial {
