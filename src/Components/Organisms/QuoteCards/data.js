@@ -9,4 +9,11 @@ const quotes = [
     }
 ];
 
-export { quotes };
+const titleData = {
+    subtitle: 'Testimonials',
+    title: 'What Passed Clients Have Said',
+    color: '#333',
+    background: '#fff'
+}
+
+export { quotes, titleData };

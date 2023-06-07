@@ -1,11 +1,11 @@
 import './App.css';
-import ServiceCard from './Components/Molecules/ServiceCard';
+import ServiceCards from './Components/Organisms/ServiceCards';
 
 function App() {
   return (
-   <>
-    <ServiceCard />
-   </>
+    <>
+      <ServiceCards />
+    </>
   );
 }
 

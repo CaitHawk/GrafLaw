@@ -1,0 +1,27 @@
+.serviceCardParagraph1 {
+    font-family: 'Fanwood Text', serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #022378;
+}
+
+.serviceCardParagraph2 {
+    font-weight: 400;
+    size: 16px;
+    line-height: 32;
+    color: #333333;
+    font-family: 'Raleway', sans-serif;
+    word-wrap: break-word;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.serviceCardsCopyDiv {
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    max-width: 700px;
+    background-color: #ececec;
+}
