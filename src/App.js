@@ -1,16 +1,10 @@
 import './App.css';
-import InfoCards from './Components/Organisms/InfoCards';
-import Footer from './Components/Organisms/Footer';
-import ContactBar from './Components/Molecules/ContactBar';
-import QuoteCard from './Components/Molecules/QuoteCard';
+import QuoteCards from './Components/Organisms/QuoteCards';
 
 function App() {
   return (
    <>
-    <InfoCards />
-    <Footer />
-    <ContactBar />
-    <QuoteCard />
+    <QuoteCards />
    </>
   );
 }
