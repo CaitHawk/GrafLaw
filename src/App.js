@@ -1,10 +1,10 @@
 import './App.css';
-import QuoteCards from './Components/Organisms/QuoteCards';
+import ServiceExplaination from './Components/Molecules/ServiceExplanation';
 
 function App() {
   return (
    <>
-    <QuoteCards />
+    <ServiceExplaination />
    </>
   );
 }
