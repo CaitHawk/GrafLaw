@@ -1,0 +1,16 @@
+.quoteCard {
+    background-color: #E0E3EB;
+    color: #022378;
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    max-width: 580px;
+    border-radius: 11px;
+}
+
+.quoteTextDiv {
+margin: 20px;
+}
+
+.quoteCopy {
+    padding-right: 40px;
+}
