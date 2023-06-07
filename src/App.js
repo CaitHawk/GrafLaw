@@ -1,10 +1,10 @@
 import './App.css';
-import ServiceExplaination from './Components/Molecules/ServiceExplanation';
+import ServiceCard from './Components/Molecules/ServiceCard';
 
 function App() {
   return (
    <>
-    <ServiceExplaination />
+    <ServiceCard />
    </>
   );
 }

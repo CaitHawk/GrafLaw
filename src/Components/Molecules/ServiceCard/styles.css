@@ -1,0 +1,31 @@
+.serviceCard {
+    width: 262px;
+    height: 270px;
+    border-radius: 11px;
+    filter: drop-shadow(0px 0px 6px rgba(18, 18, 19, 0.2));
+    border: solid 2px rgb(219, 219, 219);
+}
+
+.serviceCardIcon {
+    color:#022378;
+}
+
+.serviceCardHeader {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #022378;
+    font-family: 'Raleway', sans-serif;
+    margin: 8px 0 28px 0;
+}
+
+.serviceCardCopy {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height:  19px;
+    text-align: center;
+    color: #333333;
+    padding: 0 32px;
+}
