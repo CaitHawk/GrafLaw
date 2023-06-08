@@ -1,3 +1,11 @@
+.serviceCardsSection {
+    display: flex;
+    flex-direction: column;
+    background-color: #ececec;
+    align-items: center;
+    justify-content: center;
+}
+
 .serviceCardParagraph1 {
     font-family: 'Fanwood Text', serif;
     font-weight: 400;
@@ -5,23 +13,42 @@
     line-height: 32px;
     text-align: center;
     color: #022378;
+    margin: 32px;
 }
 
 .serviceCardParagraph2 {
     font-weight: 400;
     size: 16px;
-    line-height: 32;
+    line-height: 32px;
     color: #333333;
     font-family: 'Raleway', sans-serif;
     word-wrap: break-word;
-    margin: 0 auto;
-    padding: 0;
+    margin: 32px;
 }
 
 .serviceCardsCopyDiv {
-    display: flex;
-    flex-direction: column;
-    height: 700px;
-    max-width: 700px;
+    max-width: 800px;
     background-color: #ececec;
+}
+
+.serviceCardsCardDiv {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.topCards, .bottomCards {
+    display: flex;
+}
+
+@media only screen and (max-width: 1440px) {
+    .serviceCardsCardDiv {
+        flex-direction: column;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .topCards, .bottomCards {
+        flex-direction: column;
+    }
 }

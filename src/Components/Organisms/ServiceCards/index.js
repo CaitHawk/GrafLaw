@@ -4,15 +4,16 @@ import Title from '../../Atoms/Title';
 import { titleData, cardData, serviceCardParagraph1, serviceCardParagraph2 } from './data';
 
 const ServiceCards = () => {
-    console.log(cardData)
+    const topCards = cardData.slice(0, cardData.length / 2);
+    const bottomCards = cardData.slice(2);
     return (
         <section className='serviceCardsSection'>
             <div className='serviceCardsCopyDiv'>
                 <p className='serviceCardParagraph1'>
-                    { serviceCardParagraph1 }
+                    {serviceCardParagraph1}
                 </p>
                 <p className='serviceCardParagraph2'>
-                    { serviceCardParagraph2 }
+                    {serviceCardParagraph2}
                 </p>
             </div>
             <Title
@@ -22,14 +23,14 @@ const ServiceCards = () => {
                 title={titleData.title} />
             <div className='serviceCardsCardDiv'>
                 <div className='topCards'>
-                    {cardData.slice(0, cardData.length / 2).map(card => {
+                    {topCards.map(card => (
                         <ServiceCard icon={card.icon} copy={card.copy} header={card.header} />
-                    })}
+                    ))}
                 </div>
                 <div className='bottomCards'>
-                    {cardData.slice(2).map(card => {
+                    {bottomCards.map(card => (
                         <ServiceCard icon={card.icon} copy={card.copy} header={card.header} />
-                    })}
+                    ))}
                 </div>
             </div>
         </section>

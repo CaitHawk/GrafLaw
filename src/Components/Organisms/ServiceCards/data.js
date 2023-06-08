@@ -10,7 +10,7 @@ const titleData = {
 
 const serviceCardParagraph1 = 'Our law firm offers a range of legal services to help you navigate your legal needs. We specialize in various practice areas, including family law, bankruptcy law, and criminal law.';
 
-const serviceCardParagraph2 = 'Our family law practice encompasses issues such as divorce, child custody, and child support to ensure that your family\'s best interests are protected. Our bankruptcy law practice helps you navigate the complexities of bankruptcy filings and proceedings. Our criminal law practice assists with DUI defense, drug crimes, and other criminal charges, so that you can focus on your defense while we take care of the legal details. Contact us today to schedule a consultation and learn how we can help you with your legal needs.'
+const serviceCardParagraph2 = 'Our family law prectice encompasses issues such as divorce, child custody, and child support to ensure that your family\'s best interests are protected. Our bankruptcy law practice helps you navigate the complexitites of bankruptcy filings and proceeding. Our criminal law practice assists with DUI defense, drug crimes, and other criminal charges, so that you can focus on you defense while we take care of the legal details. Contact us today to schedule a consultation and learn how we can help you with you legal needs.'
 const cardData = [
    {
         icon: mdiHandcuffs,
