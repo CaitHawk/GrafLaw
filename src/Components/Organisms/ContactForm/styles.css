@@ -1,4 +1,4 @@
-section {
+.contactFormSection {
     background-color: #ececec;
     display: flex;
     flex-direction: column;
@@ -6,7 +6,7 @@ section {
 
 }
 
-h2 {
+.contactFormH2 {
     font-family: 'Fanwood Text', serif;
     font: weight;
     font-size: 40px;
@@ -16,7 +16,7 @@ h2 {
     margin: 10px;
 }
 
-p {
+.contactFormP {
     max-width: 650px;
     font-weight: 400;
     font-style: normal;
@@ -26,7 +26,7 @@ p {
     margin: 24px 10px 0 10px;
 }
 
-form {
+.contactForm {
     display: flex;
     flex-direction: column;
     max-width: 700px;
@@ -38,10 +38,11 @@ button {
     margin: 20px 10px;
 }
 
-label {
+.contactForm label {
     display: flex;
     flex-direction: column;
     margin: 10px;
+    width: 100%;
 }
 
 input {
@@ -66,4 +67,22 @@ input {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
+}
+
+.sublabel {
+    font-size: 12px;
+    margin: 4px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .formGroup {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .formGroup label {
+        padding: 0 10px;
+        width: 100%;
+        margin: 10px auto;
+    }
 }

@@ -3,6 +3,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: row;
+    background-color: #ececec;
 }
 
 @media only screen and (max-width: 1230px) {

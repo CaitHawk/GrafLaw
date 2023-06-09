@@ -1,0 +1,52 @@
+.aboutBlurbSection {
+    display: flex;
+    flex-direction: row !important;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.aboutTextDiv {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    max-width:  760px;
+    margin: 32px;
+}
+
+.aboutPhotoDiv {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.aboutImg {
+    max-width: 451px
+
+}
+
+.aboutNameDiv {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 32px;
+}
+
+.aboutName {
+    font-family: 'Fanwood Text', serif;
+    font-size: 40px;
+    line-height: 52px;
+    font-weight: 400px;
+    color: #022378;
+    font-style: normal;
+    margin: 5px;
+
+}
+
+@media only screen and (max-width: 1200px) {
+    .aboutBlurbSection {
+        flex-direction: column;
+    }
+}

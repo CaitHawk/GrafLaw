@@ -52,9 +52,9 @@ const ContactForm = () => {
     };
 
     return (
-        <section>
-            <h2>It all starts with a <em>free,</em> no obligation phone call. Just fill out the form below</h2>
-            <form onSubmit={handleSubmit}>
+        <section className='contactFormSection'>
+            <h2 className='contactFormH2'>It all starts with a <em>free,</em> no obligation phone call. Just fill out the form below</h2>
+            <form className='contactForm' onSubmit={handleSubmit}>
                 <label className='lable'>
                     Name*
                     <input
@@ -103,7 +103,10 @@ const ContactForm = () => {
                     </label>
                 </div>
                 <label>
-                    Services  <span style={{ fontSize: '12px', display: 'inline'}}className='optionalSpan'>{'(optional)'}</span>
+                    Services  <span style={{ 
+                        fontSize: '12px', 
+                        display: 'inline', 
+                        padding: '4px'}} className='optionalSpan'>{'(optional)'}</span>
                     <input
                         type="text"
                         value={services}
@@ -118,11 +121,12 @@ const ContactForm = () => {
                         onChange={handleAboutChange} />
                 </label>
                 <Button
+                    className='contactFormButton'
                     copy='book your free call now'
                     color='orange'
                     withArrow={true} />
             </form>
-            <p>Please do not send any confidential or time-sensitive information until you have received a written agreement from our office to perform legal services on your behalf.</p>
+            <p className='contactFormP'>Please do not send any confidential or time-sensitive information until you have received a written agreement from our office to perform legal services on your behalf.</p>
         </section>
     );
 }

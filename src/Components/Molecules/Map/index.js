@@ -5,7 +5,7 @@ import map from '../../../map.png';
 const Map = () => {
     return (
         <section>
-            <img src={map} alt='map' className='mapImg' />
+            {/* <img src={map} alt='map' className='mapImg' /> */}
             <div className='mapPDiv'>
                 <p>P.O. Box 1210, Pearl City, Hawaii 96706</p>
                 <p>Phone: <a href='tel:+18086206392'>{'(808) 620-6392'}</a></p>
