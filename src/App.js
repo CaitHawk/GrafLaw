@@ -1,10 +1,10 @@
 import './App.css';
-import ServiceCards from './Components/Organisms/ServiceCards';
+import FormAndMap from './Components/Organisms/FormAndMap';
 
 function App() {
   return (
     <>
-      <ServiceCards />
+      <FormAndMap />
     </>
   );
 }
