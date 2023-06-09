@@ -4,8 +4,23 @@
     font-family: 'Raleway', sans-serif;
 }
 
+.mapPDiv {
+    margin-bottom: 24px;
+}
+
 .mapImg {
     max-width: 450px;
     margin: 24px;
-    width: auto;
+}
+
+.mapPDiv p a {
+    text-decoration: none;
+    color: #000000;
+}
+
+@media only screen and (max-width: 500px) {
+    .mapImg {
+        width: 100%;
+        margin: 0;
+    }
 }

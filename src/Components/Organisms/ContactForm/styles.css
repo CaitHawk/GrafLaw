@@ -74,7 +74,7 @@ input {
     margin: 4px;
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 768px) {
     .formGroup {
         flex-direction: column;
         justify-content: center;
