@@ -30,7 +30,7 @@
 .aboutImg {
     max-width: 451px;
     margin: auto;
-
+    width: 100%;
 }
 
 .aboutNameDiv {

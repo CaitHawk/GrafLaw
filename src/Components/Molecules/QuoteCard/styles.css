@@ -12,11 +12,7 @@
 }
 
 .quoteTextDiv {
-margin: 20px;
-}
-
-.quoteCopy {
-    padding-right: 40px;
+margin: 20px 40px 20px 0;
 }
 
 @media only screen and (max-width: 768px) {
