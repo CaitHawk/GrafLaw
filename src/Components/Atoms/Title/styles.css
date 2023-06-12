@@ -29,3 +29,9 @@
     line-height: 52px;
     text-align: center;
 }
+
+@media only screen and (max-width: 760px) {
+    .titleDiv {
+        margin: 0 32px;
+    }
+}

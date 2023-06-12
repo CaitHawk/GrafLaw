@@ -4,7 +4,7 @@ import AboutBlurb from './Components/Organisms/AboutBlurb';
 // import AreaOfPractice from './Components/Organisms/AreaOfPractice';
 import ContactBar from './Components/Molecules/ContactBar';
 import Footer from './Components/Organisms/Footer';
-import QuoteCards from './Components/Organisms/QuoteCards';
+import Testimonials from './Components/Organisms/Testimonials';
 import ServiceCards from './Components/Organisms/ServiceCards';
 import InfoCards from './Components/Organisms/InfoCards';
 ;
@@ -13,7 +13,7 @@ function App() {
     <>
       <FormAndMap />
       <InfoCards />
-      <QuoteCards />
+      <Testimonials />
       <AboutBlurb />
       <ServiceCards />
       <ContactBar />

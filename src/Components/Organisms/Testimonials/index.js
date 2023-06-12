@@ -3,7 +3,7 @@ import { quotes, titleData } from './data';
 import QuoteCard from '../../Molecules/QuoteCard';
 import Title from '../../Atoms/Title';
 
-const QuoteCards = () => {
+const Testimonials = () => {
     return (
         <section className='quoteCardsSection'>
             <Title 
@@ -20,4 +20,4 @@ const QuoteCards = () => {
     )
 };
 
-export default QuoteCards;
+export default Testimonials;
