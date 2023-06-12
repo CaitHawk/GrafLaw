@@ -1,5 +1,5 @@
 import './styles.css';
-import AboutImage from '../../../Rectangle 22.png';
+import AboutImage from '../../../images/Rectangle 22.png';
 
 const AboutBlurb = () => {
     return (

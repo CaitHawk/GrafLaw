@@ -1,5 +1,5 @@
 import './styles.css';
-import map from '../../../map.png';
+import map from '../../../images/map.png';
 
 
 const Map = () => {

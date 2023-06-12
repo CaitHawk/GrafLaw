@@ -1,0 +1,39 @@
+.headerDiv {
+    background-color: #ececec;
+    margin: 0;
+    display: flex;
+}
+
+.headerNav {
+    max-width: 450px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 24px;
+}
+
+.headerLink {
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 24px;
+}
+
+@media only screen and (max-width: 1230px) {
+    .headerDiv {
+     display: flex;
+     flex-direction: column;
+     align-items: flex-end;
+    }
+ }
+
+@media only screen and (max-width: 760px) {
+   .headerNav {
+    display: flex;
+    flex-direction: column;
+   }
+   .headerDiv {
+    flex-direction: column-reverse;
+   }
+}

@@ -7,10 +7,12 @@ import Footer from './Components/Organisms/Footer';
 import Testimonials from './Components/Organisms/Testimonials';
 import ServiceCards from './Components/Organisms/ServiceCards';
 import InfoCards from './Components/Organisms/InfoCards';
+import Header from './Components/Molecules/Header';
 ;
 function App() {
   return (
     <>
+      <Header />
       <FormAndMap />
       <InfoCards />
       <Testimonials />

@@ -1,7 +1,7 @@
 import './styles.css';
 import { disclaimer, copyright, footerCopy, serviceArr, phoneNumber, emailAdress } from './footerData';
 import { Phone, AlternateEmail, Facebook, LinkedIn, Copyright } from '@mui/icons-material';
-import logoLight from '../../../logo-light.png';
+import logoLight from '../../../images/logo-light.png';
 
 const Footer = () => {
     return (
