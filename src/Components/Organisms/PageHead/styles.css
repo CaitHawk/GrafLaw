@@ -1,0 +1,51 @@
+.pageHeadSection {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    max-width: 100%;
+}
+
+.pageHeadImage {
+    background-image: url('../../../images/pageHeadImage.webp');
+    min-width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.pageHeadHead {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pageHeadLogo {
+    max-width: 157px;
+}
+
+.pageHeadTextDiv {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    margin: 150px 64px 250px 64px;
+    max-width: 380px;
+}
+
+.pageHeadTitle {
+    font-family: 'Fanwood Text', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height:  51px;
+}
+
+.pageHeadCopy {
+    font-size: 16px;
+    line-height: 27px;
+}
+
+@media only screen and (max-width: 768px) {
+    .pageHeadHead {
+        flex-direction: column;
+    }
+    .pageHeadTextDiv {
+        margin: 150px 32px 250px 32px;
+    }
+}
