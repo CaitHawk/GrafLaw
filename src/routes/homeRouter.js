@@ -1,11 +1,19 @@
+import PageHead from '../Components/Organisms/PageHead';
+import InfoCards from '../Components/Organisms/InfoCards';
+import Testimonials from '../Components/Organisms/Testimonials';
+import ContactBar from '../Components/Molecules/ContactBar';
+import Footer from '../Components/Organisms/Footer';
+
 export default function HomeRouter() {
     return (
         <main>
-            <h1>Home Page</h1>
-            <a href="/home"> home</a>
-            <a href='services'>services</a>
-            <a href='about'>about</a>
-            <a href="contact">contact</a>
+           <PageHead 
+            title='A trusted advisor for your business and your o’hana'
+            copy='Legal matters can be overwhelming and stressful. That is why we offer personalized attention and support to ensure that you feel comfortable and confident throughout the legal process.' button={true} />
+            <InfoCards />
+            <Testimonials />
+            <ContactBar />
+            <Footer />
         </main>
     )
-}
+};

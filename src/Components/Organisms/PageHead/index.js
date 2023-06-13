@@ -1,19 +1,18 @@
 import './styles.css';
 import Header from './../../Molecules/Header';
 import Button from '../../Atoms/Button';
-import pageHeadLogo from '../../../images/logo-dark.png';
+import pageHeadLogo from '../../../images/Vector.png';
+import pageHeadLogoText from '../../../images/GRAF LAW.png';
 
-const data = {
-    title: 'Services',
-    copy: 'We are well versed in criminal, bankruptcy, divorce, and family law and ensure the best possible outcome for our clients.',
-}
-
-const PageHead = ({ title = data.title, copy = data.copy, button = true }) => {
+const PageHead = ({ title, copy, button }) => {
     return (
         <section className='pageHeadSection'>
             <div className='pageHeadImage'>
                 <div className='pageHeadHead'>
-                    <img src={pageHeadLogo} className='pageHeadLogo' alt='Graf Law' />
+                    <a href='/home' className='pageHeadHome'>
+                        <img src={pageHeadLogo} className='pageHeadLogo' alt='Graf Law' />
+                        <img src={pageHeadLogoText} className='pageHeadLogoText' alt='Graf Law' />
+                    </a>
                     <Header />
                 </div>
                 <div className='pageHeadTextDiv'>
