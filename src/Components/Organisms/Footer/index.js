@@ -38,7 +38,7 @@ const Footer = () => {
 
             </div>
             <p className='disclaimer'>{ disclaimer }</p>
-            <p className='copyright'><Copyright />{ copyright }</p>
+            <p className='copyright'>Copyright<Copyright style={{ width: '12px'}} />{ copyright }</p>
         </section>
     )
 };

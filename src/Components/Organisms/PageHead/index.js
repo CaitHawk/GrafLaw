@@ -9,7 +9,7 @@ const PageHead = ({ title, copy, button }) => {
         <section className='pageHeadSection'>
             <div className='pageHeadImage'>
                 <div className='pageHeadHead'>
-                    <a href='/home' className='pageHeadHome'>
+                    <a href='/' className='pageHeadHome'>
                         <img src={pageHeadLogo} className='pageHeadLogo' alt='Graf Law' />
                         <img src={pageHeadLogoText} className='pageHeadLogoText' alt='Graf Law' />
                     </a>

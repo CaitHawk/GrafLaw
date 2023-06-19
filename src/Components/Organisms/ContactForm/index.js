@@ -124,7 +124,8 @@ const ContactForm = () => {
                     className='contactFormButton'
                     copy='book your free call now'
                     color='orange'
-                    withArrow={true} />
+                    withArrow={true}
+                    style={{ marginTop: '40px !important'}} />
             </form>
             <p className='contactFormP'>Please do not send any confidential or time-sensitive information until you have received a written agreement from our office to perform legal services on your behalf.</p>
         </section>

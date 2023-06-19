@@ -1,5 +1,5 @@
 import './styles.css';
-import Image2 from '../../../divorceImage.png';
+import Image2 from '../../../images/divorceImage.png';
 
 const data = {
     header: 'Divorce Law',
