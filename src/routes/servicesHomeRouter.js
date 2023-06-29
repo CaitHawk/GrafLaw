@@ -3,7 +3,6 @@ import ServiceCards from '../Components/Organisms/ServiceCards';
 import ServiceExplaination from '../Components/Molecules/ServiceExplanation';
 import ContactBar from '../Components/Molecules/ContactBar';
 import Footer from '../Components/Organisms/Footer';
-// import ServiceExplaination from "../Components/Molecules/ServiceExplanation";
 
 export default function ServicesHomeRouter() {
 	return (
