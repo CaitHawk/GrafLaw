@@ -1,5 +1,5 @@
 import './styles.css';
-import Image2 from '../../../images/divorceImage.png';
+import Image2 from '../../../images/divorceImage.jpg';
 
 const data = {
 	header: 'Divorce Law',
@@ -33,9 +33,7 @@ const ServiceExplaination = ({
 					alt='scenic hawaii'
 					className='serviceExplainationImage'
 					style={{
-						boxShadow: `${
-							reversed ? '40px -40px' : '-40px 40px'
-						} 30px 0 ${color}`,
+						boxShadow: `${reversed ? '40px -40px' : '-40px 40px'} 0 0 ${color}`,
 					}}
 				/>
 			</div>
