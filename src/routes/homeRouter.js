@@ -14,7 +14,7 @@ export default function HomeRouter() {
 				button={true}
 			/>
 			<InfoCards />
-			{/* <AreaOfPractice /> */}
+			<AreaOfPractice />
 			<Testimonials />
 			<ContactBar />
 			<Footer />
