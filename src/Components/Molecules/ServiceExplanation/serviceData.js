@@ -3,7 +3,7 @@ import bankruptcyImage from '../../../images/bankruptcyImage.jpg';
 import familyLawImage from '../../../images/familyLawImage.jpg';
 import criminalLawImage from '../../../images/criminalLawImage.jpg';
 
-const servicesData = [
+const serviceData = [
 	{
 		header: 'Criminal Law',
 		copy: [
@@ -14,6 +14,7 @@ const servicesData = [
 		image: criminalLawImage,
 		color: '#B8EEAA',
 		reversed: false,
+		id: 'criminal',
 	},
 	{
 		header: 'Divorce Law',
@@ -26,6 +27,7 @@ const servicesData = [
 		image: divorceImage,
 		color: '#aeccea',
 		reversed: true,
+		id: 'divorce',
 	},
 	{
 		header: 'Bankruptcy law',
@@ -37,6 +39,7 @@ const servicesData = [
 		image: bankruptcyImage,
 		color: '#B2E6D8',
 		reversed: false,
+		id: 'bankruptcy',
 	},
 	{
 		header: 'Family Law',
@@ -49,7 +52,11 @@ const servicesData = [
 		image: familyLawImage,
 		color: '#FE9A9A',
 		reversed: true,
+		id: 'familyLaw',
 	},
 ];
 
-export { servicesData };
+const firstTwo = serviceData.slice(0, 2);
+const lastTwo = serviceData.slice(2);
+
+export { serviceData, firstTwo, lastTwo };

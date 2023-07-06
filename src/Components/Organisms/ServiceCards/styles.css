@@ -1,54 +1,56 @@
 .serviceCardsSection {
-    display: flex;
-    flex-direction: column;
-    background-color: #ececec;
-    align-items: center;
-    justify-content: center;
+	display: flex;
+	flex-direction: column;
+	background-color: #ececec;
+	align-items: center;
+	justify-content: center;
+	padding-top: 64px;
 }
 
 .serviceCardParagraph1 {
-    font-family: 'Fanwood Text', serif;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 32px;
-    text-align: center;
-    color: #022378;
-    margin: 32px;
+	font-family: 'Fanwood Text', serif;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 32px;
+	text-align: center;
+	color: #022378;
+	margin: 32px;
 }
 
 .serviceCardParagraph2 {
-    font-weight: 400;
-    size: 16px;
-    line-height: 32px;
-    color: #333333;
-    font-family: 'Raleway', sans-serif;
-    word-wrap: break-word;
-    margin: 32px;
+	font-weight: 400;
+	size: 16px;
+	line-height: 32px;
+	color: #333333;
+	font-family: 'Raleway', sans-serif;
+	word-wrap: break-word;
+	margin: 32px;
 }
 
 .serviceCardsCopyDiv {
-    max-width: 800px;
-    background-color: #ececec;
+	max-width: 800px;
+	background-color: #ececec;
 }
 
 .serviceCardsCardDiv {
-    display: flex;
-    margin-bottom: 100px;
+	display: flex;
+	margin-bottom: 100px;
 }
 
-.topCards, .bottomCards {
-    display: flex;
+.topCards,
+.bottomCards {
+	display: flex;
 }
 
 @media only screen and (max-width: 1440px) {
-    .serviceCardsCardDiv {
-        flex-direction: column;
-    }
+	.serviceCardsCardDiv {
+		flex-direction: column;
+	}
 }
 
-
 @media only screen and (max-width: 768px) {
-    .topCards, .bottomCards {
-        flex-direction: column;
-    }
+	.topCards,
+	.bottomCards {
+		flex-direction: column;
+	}
 }
