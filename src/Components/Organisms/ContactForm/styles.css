@@ -1,92 +1,114 @@
 .contactFormSection {
-    background-color: #ececec;
-    display: flex;
-    flex-direction: column;
-    padding: 40px;
-
+	background-color: #ececec;
+	display: flex;
+	flex-direction: column;
+	padding: 40px;
 }
 
 .contactFormH2 {
-    font-family: 'Fanwood Text', serif;
-    font: weight;
-    font-size: 40px;
-    line-height: 54px;
-    color: #022378;
-    max-width: 650px;
-    margin: 10px;
+	font-family: 'Fanwood Text', serif;
+	font: weight;
+	font-size: 40px;
+	line-height: 54px;
+	color: #022378;
+	max-width: 650px;
+	margin: 10px;
 }
 
 .contactFormP {
-    max-width: 650px;
-    font-weight: 400;
-    font-style: normal;
-    line-height: 24px;
-    font-size: 14px;
-    font-family: 'Raleway', sans-serif;
-    margin: 24px 10px 0 10px;
+	max-width: 650px;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 24px;
+	font-size: 14px;
+	font-family: 'Raleway', sans-serif;
+	margin: 24px 10px 0 10px;
 }
 
 .contactForm {
-    display: flex;
-    flex-direction: column;
-    max-width: 700px;
-    font-family: 'Raleway', sans-serif;
+	display: flex;
+	flex-direction: column;
+	max-width: 700px;
+	font-family: 'Raleway', sans-serif;
 }
 
 button {
-    max-width: 350px;
-    margin: 20px 10px;
+	max-width: 350px;
+	margin: 20px 10px;
 }
 
 .contactForm label {
-    display: flex;
-    flex-direction: column;
-    margin: 10px;
-    width: 100%;
+	display: flex;
+	flex-direction: column;
+	margin: 10px;
+	width: 100%;
 }
 
 input {
-    border: solid 1px #cccccc;
-    background-color: #fff;
-    border-radius: 6px;
-    height: 32px;
+	border: solid 1px #cccccc;
+	background-color: #fff;
+	border-radius: 6px;
+	height: 32px;
 }
 
 .formGroup {
-    display: flex;
-    width: 100%;
-    align-items: flex-end;
+	display: flex;
+	width: 100%;
+	align-items: flex-end;
 }
 
 .formGroup label {
-    width: 50%;
+	width: 50%;
 }
 
 .textArea {
-    height: 107px;
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
+	height: 107px;
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
 }
 
 .sublabel {
-    font-size: 12px;
-    margin: 4px;
+	font-size: 12px;
+	margin: 4px;
 }
 
 .contactFormButton {
-    margin-top: 40px;
+	width: 220px;
+	height: 48px;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: center;
+	border: none;
+	border-radius: 10px;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 27px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	letter-spacing: 0.02em;
+	padding: 0 24px;
+	font-family: 'Raleway', sans-serif;
+	max-width: 90%;
+	color: white;
+	margin-top: 40px;
+	background-color: #c36005;
 }
 
 @media only screen and (max-width: 768px) {
-    .formGroup {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .formGroup label {
-        padding: 0 10px;
-        width: 100%;
-        margin: 10px auto;
-    }
+	.formGroup {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.formGroup label {
+		padding: 0 10px;
+		width: 100%;
+		margin: 10px auto;
+	}
+	.contactFormButton {
+		font-size: 12px;
+	}
 }
