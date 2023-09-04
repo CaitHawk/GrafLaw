@@ -10,7 +10,7 @@ const NavLinks = () => {
 						href={`${
 							link !== 'resources'
 								? `/${link}`
-								: 'www.courts.state.hi.us/self-help/help'
+								: `www.courts.state.hi.us/self-help/help`
 						}`}
 						className='link'
 					>
